@@ -32,7 +32,7 @@ Does not contains a custom API to consume, is just a simple example to verify th
 
 ## Configuration
 
-First run `Authorization-server` and get a token, then use that token in `Autorization` property in headers.
+First run `Authorization-server` and get a token, then use that token in `Autorization` property in headers. Find authorization-server project to understand how to get a token.
 
 ## JKS File
 
@@ -42,6 +42,6 @@ public-jwt.key
 ```
 The token is created by `authorization-server` using jks file, this file is in resources folder. Find this project to understand more. I have two versions of Authorization-server, one version uses H2 database and the second version uses MySQL.
 
-You can find in my space related projects. You can find in one of my projects an example of how to create jks file and public key.
+You can find in my space related projects. Find in one of my projects an example of how to create jks file and public key.
 
 Enjoy it!!!!
